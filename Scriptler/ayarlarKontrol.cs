@@ -52,7 +52,7 @@ public void ToggleSes()
         sesbtn.color = new Color(sesbtn.color.r, sesbtn.color.g, sesbtn.color.b, yeniAlpha);
     }
 
-    // --- SESİ AÇMA / KAPATMA İŞLEMİ (Burası artık kesin çalışacak) ---
+    // --- SESİ AÇMA / KAPATMA İŞLEMİ  ---
     if (sesAcik)
     {
         AudioListener.volume = 1f; 
